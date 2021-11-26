@@ -1,12 +1,12 @@
-import React, { Ref } from "react";
+import React from "react";
 import { useAseprite } from "use-spritesheet/lib";
-import gremlin from "./resources/bomber.png";
-import gremlinJson from "./resources/bomber.json";
-import impo from "./resources/impo.png";
-import impoJson from "./resources/impo.json";
-import bard from "./resources/smiley.png";
-import bardJson from "./resources/smiley.json";
 import { AsepriteJson } from "use-spritesheet/lib/aseprite";
+import gremlinJson from "./resources/bomber.json";
+import gremlin from "./resources/bomber.png";
+import impoJson from "./resources/impo.json";
+import impo from "./resources/impo.png";
+import bardJson from "./resources/smiley.json";
+import bard from "./resources/smiley.png";
 
 export const GremlinAseprite = ({
   position,

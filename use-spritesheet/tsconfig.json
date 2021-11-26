@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "esnext",
+    "target": "es5",
+    "lib": ["dom",
+      "dom.iterable",
+      "esnext"],
+    "sourceMap": true,
+    "allowJs": false,
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "declaration": true,
+    "declarationDir": "./lib",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "incremental": true,
+    "strict": true,
+    "skipLibCheck": true,
+
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "build", "dist", "lib", "src/stories", "src/example", "**/*.test.ts", "**/*.test.tsx"]
+}
+

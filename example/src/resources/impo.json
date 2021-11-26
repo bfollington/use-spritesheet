@@ -1,0 +1,83 @@
+{ "frames": {
+   "impo 0.ase": {
+    "frame": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 1.ase": {
+    "frame": { "x": 36, "y": 0, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 2.ase": {
+    "frame": { "x": 72, "y": 0, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 3.ase": {
+    "frame": { "x": 108, "y": 0, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 4.ase": {
+    "frame": { "x": 0, "y": 36, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 5.ase": {
+    "frame": { "x": 36, "y": 36, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 6.ase": {
+    "frame": { "x": 72, "y": 36, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   },
+   "impo 7.ase": {
+    "frame": { "x": 108, "y": 36, "w": 36, "h": 36 },
+    "rotated": false,
+    "trimmed": false,
+    "spriteSourceSize": { "x": 0, "y": 0, "w": 36, "h": 36 },
+    "sourceSize": { "w": 36, "h": 36 },
+    "duration": 100
+   }
+ },
+ "meta": {
+  "app": "http://www.aseprite.org/",
+  "version": "1.2.15",
+  "image": "impo.png",
+  "format": "RGBA8888",
+  "size": { "w": 144, "h": 72 },
+  "scale": "1",
+  "frameTags": [
+   { "name": "idle", "from": 0, "to": 7, "direction": "forward" }
+  ],
+  "layers": [
+   { "name": "Layer", "opacity": 255, "blendMode": "normal" }
+  ],
+  "slices": [
+  ]
+ }
+}

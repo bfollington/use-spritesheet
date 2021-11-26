@@ -1,0 +1,7 @@
+{
+    "private": true,
+    "workspaces": ["example", "use-spritesheet"],
+    "scripts": {
+        "build": "cp README.md packages/use-spritesheet/README.md && cd packages/use-spritesheet && yarn build && cd ../example && yarn build"
+      }
+}

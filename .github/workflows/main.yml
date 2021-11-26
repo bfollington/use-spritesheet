@@ -1,0 +1,31 @@
+name: Build
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Cache node modules
+      uses: actions/cache@v1.0.0
+      with:
+        path: |
+          node_modules
+          example/node_modules
+          use-spritesheet/node_modules
+        key: ${{ runner.OS }}-build-${{ hashFiles('**/yarn.lock') }}
+        restore-keys: |
+          ${{ runner.OS }}-build-${{ env.cache-name }}-
+          ${{ runner.OS }}-build-
+          ${{ runner.OS }}-
+    - name: Install
+      run: yarn install
+    - name: Build use-spritesheet
+      working-directory: packages/use-spritesheet
+      run: yarn build
+    - name: Build example
+      working-directory: packages/example
+      run: yarn build

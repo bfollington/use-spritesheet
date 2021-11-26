@@ -24,8 +24,8 @@ jobs:
     - name: Install
       run: yarn install
     - name: Build use-spritesheet
-      working-directory: packages/use-spritesheet
+      working-directory: use-spritesheet
       run: yarn build
     - name: Build example
-      working-directory: packages/example
+      working-directory: example
       run: yarn build

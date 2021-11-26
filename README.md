@@ -9,7 +9,7 @@
 ![Bundle Size](https://img.shields.io/bundlephobia/min/use-spritesheet?style=flat&colorA=000000&colorB=000000)
 [![Build](https://github.com/bfollington/use-spritesheet/workflows/Build/badge.svg)](https://github.com/bfollington/use-spritesheet/actions?query=workflow%3A%22Build%22)
 
-<p><strong>use-spritesheet</strong> is a set of hooks to use pixel art, spritesheets and [Aseprite](https://www.aseprite.org/) with react-three-fiber in just a few lines of code.</p>
+<p><strong>use-spritesheet</strong> is a set of hooks to use pixel art, spritesheets and   <a href="https://www.aseprite.org/">Aseprite</a> with react-three-fiber in just a few lines of code.</p>
   
 <p><a href="https://use-spritesheet.vercel.app/">👁 &nbsp;Live Demo</a> (source in <a href="https://github.com/bfollington/use-spritesheet/tree/main/example"><code>example</code></a>)</p>
 

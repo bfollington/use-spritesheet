@@ -178,7 +178,7 @@ export function useAseprite(
     }
 
     tex.offset.x = f.frame.x / w;
-    tex.offset.y = f.frame.h / h;
+    tex.offset.y = f.frame.y / h;
   });
 
   return [tex, index, t];
